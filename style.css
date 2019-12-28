@@ -1,4 +1,8 @@
-#title {
+body {
+  background-image: url("img/background.jpg");
+}
+
+h1 {
   text-align: center;
   font-size: 3em;
 }
@@ -7,11 +11,11 @@
   align: center;
   height: 500px;
   width: 500px;
-  background-color: pink;
+  background-color: white;
   display: grid;
   margin: auto;
   border-style: solid;
-  border-color: aqua;
+  border-color: black;
   border-width: 4px;
   grid-column-gap: 1px;
   grid-row-gap: 1px;
@@ -21,5 +25,5 @@
 
 #user-options {
   text-align: center;
-  margin-top: 130px;
+  margin-top: 110px;
 }
