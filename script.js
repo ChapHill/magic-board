@@ -57,6 +57,9 @@ function resize(size) {
   invalid = true;
   while(invalid) {
     size = prompt(`Enter a number between 1 and 200 to resize the grid: (i.e enter 10 for a 10x10 grid)`);
+    if(size == null){
+      return;
+    }
     if(size >= 1 && size <= 200) {
       invalid = false;
     }
